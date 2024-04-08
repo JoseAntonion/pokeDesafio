@@ -1,7 +1,6 @@
-package com.example.desafio_android.ui.screens.home
+package com.example.poke_desafio.ui.screens.home
 
 import android.util.Log
-import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.desafio_android.data.PokemonRepository
@@ -9,7 +8,6 @@ import com.example.desafio_android.data.local.LocalPokemon
 import com.example.desafio_android.model.ServerPokemon
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.launch
 
 class HomeViewModel(private val repository: PokemonRepository) : ViewModel() {

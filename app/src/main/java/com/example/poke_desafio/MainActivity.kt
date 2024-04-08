@@ -1,4 +1,4 @@
-package com.example.desafio_android
+package com.example.poke_desafio
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,7 +8,7 @@ import com.example.desafio_android.data.PokemonRepository
 import com.example.desafio_android.data.local.LocalDataSource
 import com.example.desafio_android.data.local.PokemonDataBase
 import com.example.desafio_android.data.remote.RemoteDataSource
-import com.example.desafio_android.ui.screens.home.HomeScreen
+import com.example.poke_desafio.ui.screens.home.HomeScreen
 
 class MainActivity : ComponentActivity() {
 

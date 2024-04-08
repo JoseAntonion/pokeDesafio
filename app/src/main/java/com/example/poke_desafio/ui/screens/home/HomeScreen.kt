@@ -1,4 +1,4 @@
-package com.example.desafio_android.ui.screens.home
+package com.example.poke_desafio.ui.screens.home
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -30,7 +30,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
 import com.example.desafio_android.data.PokemonRepository
 import com.example.desafio_android.data.local.LocalPokemon
-import com.example.desafio_android.ui.theme.DesafioandroidTheme
+import com.example.poke_desafio.ui.theme.DesafioandroidTheme
 
 @Composable
 fun HomeScreen(pokemonRepository: PokemonRepository) {
